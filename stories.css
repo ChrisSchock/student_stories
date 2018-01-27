@@ -1,0 +1,116 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background: #000000;
+  padding: 75px;
+}
+
+#heading {
+  text-align: center;
+  color: #FFFFFF;
+  width: 50%;
+  margin: auto;
+}
+
+#footer {
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+  width: 50%;
+  margin: auto;
+}
+
+h3 {
+  color: white;
+}
+
+a:link {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: underline;
+    transition: color 0.8s;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.container {
+  background: #340006;
+  width: 50%;
+  height: 125px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#button_box {
+  background: #340006;
+  width: 50%;
+  margin: auto;
+}
+
+#getStory {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#getStory:hover{
+  background: #340006;
+  color: #FFFFFF;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.8s;
+}
+
+#story_box {
+  text-align: center;
+  background: #340006;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.story_num {
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.story_num:hover{
+  background: #340006;
+  color: #FFFFFF;
+  cursor: default;
+  transition: background 0.8s;
+}
+
+.author {
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.author:hover{
+  background: #340006;
+  color: #FFFFFF;
+  cursor: default;
+  transition: background 0.8s; 
+}
+
+.link {
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.link:hover{
+  background: #340006;
+  color: #FFFFFF;
+  cursor: default;
+  transition: background 0.8s;
+}
