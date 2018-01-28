@@ -145,13 +145,13 @@ a:active {
 
 
 .author_all {
-  width: 65%;
+  width: 60%;
   display: inline-block;
 }
 
 
 .link_all {
-  width: 23%;
+  width: 30%;
   display: inline-block;
 }
 
@@ -179,5 +179,8 @@ a:active {
   }
   #footer {
     width: 98%;
+  }
+  #getlist {
+    width: 50%;
   }
 }
