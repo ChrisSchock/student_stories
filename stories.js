@@ -179,11 +179,9 @@ let isOpen = false;
 
 let fullList = $('#full_list');
 function listAll() {
-  console.log(isOpen);
   if(isOpen == true) {
     fullList.children().remove();
     isOpen = false;
-    console.log(isOpen);
   } else {
     isOpen = true;
     for(let x = 0; x < stories.length; x++) {
