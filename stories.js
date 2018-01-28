@@ -187,7 +187,7 @@ function listAll() {
   } else {
     isOpen = true;
     for(let x = 0; x < stories.length; x++) {
-      fullList.append('<div class="row"><div class="story_num_all"><strong>#' + (x+1) + '</strong></div>' + '<div class="author_all">Author: <strong>' + stories[x][1] + '</strong></div>' + '<div class="link_all">' + '<a href="https://discussions.udacity.com/t/let-s-inspire-and-make-a-change-with-google-and-udacity-top-25-most-inspirational-stories-will-be-published-in-udacity-s-blog/537527/' + stories[x][0] + '" target="_blank">Read Story</a>') + '</div></div>';
+      fullList.append('<div class="row"><div class="story_num_all"><strong>#' + (x+1) + '</strong></div>' + '<div class="author_all"><strong>' + stories[x][1] + '</strong></div>' + '<div class="link_all">' + '<a href="https://discussions.udacity.com/t/let-s-inspire-and-make-a-change-with-google-and-udacity-top-25-most-inspirational-stories-will-be-published-in-udacity-s-blog/537527/' + stories[x][0] + '" target="_blank">Read Story</a>') + '</div></div>';
     }
   }
 }
