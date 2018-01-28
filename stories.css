@@ -139,7 +139,7 @@ a:active {
 
 
 .story_num_all {
-  width: 10%;
+  width: 14%;
   display: inline-block;
 }
 
@@ -151,7 +151,7 @@ a:active {
 
 
 .link_all {
-  width: 30%;
+  width: 26%;
   display: inline-block;
 }
 
@@ -180,7 +180,7 @@ a:active {
   #footer {
     width: 98%;
   }
-  #getlist {
+  #getList {
     width: 50%;
   }
 }
