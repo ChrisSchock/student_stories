@@ -120,6 +120,9 @@ a:active {
     width: 90%;
     height: 200px;
     }
+  #button_box {
+    width: 90%;
+  }
   #heading {
     width: 90%
   }
