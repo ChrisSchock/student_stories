@@ -130,7 +130,7 @@ a:active {
 }
 
 #full_list {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .row {
@@ -162,6 +162,23 @@ a:active {
   transition: background 0.8s;
 }
 
+#credits {
+  font-size: 12px;
+  background: #000000;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+a.medium:link, a.medium:visited, a.medium:active{
+  color: #340006;
+  text-decoration: none;
+}
+
+a.medium:hover {
+  color: #FFFFFF;
+  font-weight: 800;
+}
 
 @media only screen and (max-width: 500px) {
   body {
