@@ -174,13 +174,34 @@ function showDetails() {
   result.append('<div class="author">Author: <strong>' + stories[i][1] + '</strong></div>');
   result.append('<div class="link">' + '<a href="https://discussions.udacity.com/t/let-s-inspire-and-make-a-change-with-google-and-udacity-top-25-most-inspirational-stories-will-be-published-in-udacity-s-blog/537527/' + stories[i][0] + '" target="_blank">Read Story</a>') + '</div>';
 }
-  
+
+let isOpen = false;
+
+let fullList = $('#full_list');
+function listAll() {
+  console.log(isOpen);
+  if(isOpen == true) {
+    fullList.children().remove();
+    isOpen = false;
+    console.log(isOpen);
+  } else {
+    isOpen = true;
+    for(let x = 0; x < stories.length; x++) {
+      fullList.append('<div class="row"><div class="story_num_all"><strong>#' + (x+1) + '</strong></div>' + '<div class="author_all">Author: <strong>' + stories[x][1] + '</strong></div>' + '<div class="link_all">' + '<a href="https://discussions.udacity.com/t/let-s-inspire-and-make-a-change-with-google-and-udacity-top-25-most-inspirational-stories-will-be-published-in-udacity-s-blog/537527/' + stories[x][0] + '" target="_blank">Read Story</a>') + '</div></div>';
+    }
+  }
+}
 
 
 // Call showDetails on click
 $("#getStory").on('click', function(event){
   event.preventDefault();
   showDetails();
+})
+  
+$("#getList").on('click', function(event){
+  event.preventDefault();
+  listAll();
 })
   
 // End of the Script
